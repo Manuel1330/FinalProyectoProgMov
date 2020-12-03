@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityDos">
+
+    <Button
+        android:id="@+id/btnOpcionRegistroExposiciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Exposiciones"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnOpcionRegistroArtistas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Artistas"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnOpcionRegistroExponen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Que Se Expone"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnOpcionRegistroTrabajos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Trabajos"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnOpcionRegistroComentarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Comentarios"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnConsultaExponen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Dni del Artista por Exposicion"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnConsultaTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Telefono por Dni"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnConsultaComentarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Comentarios de Trabajos por Exposiciones"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnConsultaRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Artista, Exposicion, Trabajo, Comentarios"
+        android:onClick="onClick"/>
+
+</LinearLayout>

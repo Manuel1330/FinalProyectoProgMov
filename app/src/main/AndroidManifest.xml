@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyectofinalpm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RegistroExposicionesActivity"/>
+        <activity android:name=".RegistroArtistasActivity"/>
+        <activity android:name=".RegistroExponenActivity"/>
+        <activity android:name=".RegistroTrabajosActivity"/>
+        <activity android:name=".RegistroComentariosActivity"/>
+        <activity android:name=".MainActivityDos"/>
+        <activity android:name=".Principal"/>
+        <activity android:name=".ConsultarExponenActivity"/>
+        <activity android:name=".ConsultarTelefonoActivity"/>
+        <activity android:name=".ConsultarComentariosActivity"/>
+        <activity android:name=".ConsultarRecyclerViewActivity"/>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

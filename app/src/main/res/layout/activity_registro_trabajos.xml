@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_registro_trabajos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistroTrabajosActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRO TRABAJOS"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/campoNombreTrab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NombreTrab"/>
+
+    <EditText
+        android:id="@+id/campoDescripcionTrabajo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DescripcionTrabajo"/>
+
+    <EditText
+        android:id="@+id/campoTamaño"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tamaño"/>
+
+    <EditText
+        android:id="@+id/campoPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peso"/>
+
+    <EditText
+        android:id="@+id/campoDniPasaporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DniPasaporte"/>
+
+    <EditText
+        android:id="@+id/campoFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Foto"/>
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Trabajos"
+        android:layout_marginTop="30dp"
+        android:onClick="onClick"/>
+
+</LinearLayout>

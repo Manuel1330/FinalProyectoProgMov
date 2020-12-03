@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_registro_artistas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistroArtistasActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRO DE ARTISTAS"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/campoDniPasaporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DniPasaporte"/>
+
+    <EditText
+        android:id="@+id/campoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"/>
+
+    <EditText
+        android:id="@+id/campoDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Direccion"/>
+
+    <EditText
+        android:id="@+id/campoPoblacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Poblacion"/>
+
+    <EditText
+        android:id="@+id/campoProvincia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Provincia"/>
+
+    <EditText
+        android:id="@+id/campoPais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pais"/>
+
+    <EditText
+        android:id="@+id/campoMovilTrabajo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MovilTrabajo"/>
+
+    <EditText
+        android:id="@+id/campoMovilPersonal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MovilPersonal"/>
+
+    <EditText
+        android:id="@+id/campoTelefonoFijo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TelefonoFijo"/>
+
+    <EditText
+        android:id="@+id/campoEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/campoWebBlog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="WebBlog"/>
+
+    <EditText
+        android:id="@+id/campoFechaNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="FechaNacimiento"/>
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Artista"
+        android:layout_marginTop="30dp"
+        android:onClick="onClick"/>
+
+</LinearLayout>
